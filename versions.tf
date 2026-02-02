@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket  = " atlantis-vamsi-state-bucket"
+    bucket  = "atlantis-vamsi-state-bucket"
   }
   required_providers {
     google = {
